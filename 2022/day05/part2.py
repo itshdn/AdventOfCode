@@ -1,7 +1,7 @@
 file = open("input.txt")
 
-starts = ["FCJPHTW", "GRVFZJBH", "HPTR", "ZSNPHT", "NVFZHJCD",
-          "PMGFWDZ", "MVZWSJDP", "NDS", "DZSFM"]
+starts = ["JHPMSFNV", "SRLMJDQ", "NQDHCSWB", "RSCL", "MVTPFB",
+          "TRQNC", "GVR", "CZSPDLR", "DSJVGPBF"]
 stacks = []
 
 for start in starts:
