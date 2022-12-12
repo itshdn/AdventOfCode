@@ -7,10 +7,10 @@ for line in file:
 
 eip = 0
 acc = 0
-seen = set()
+nexts = set()
 
-while eip not in seen and eip < len(ins):
-    seen.add(eip)
+while eip not in nexts and eip < len(ins):
+    nexts.add(eip)
     if ins[eip][0] == "acc":
         acc += ins[eip][1]
     if ins[eip][0] == "jmp":
